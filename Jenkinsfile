@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   environment {
-    COMPOSE_PROJECT_NAME = "product-catalogCI"
+    COMPOSE_PROJECT_NAME = "product_catalog_ci"
     COMPOSE_FILE = "docker-compose.yml"
   }
 
